@@ -1,8 +1,8 @@
 const aVeryBigSum = (arr) => {
-  let sum = 0;
+  let sum = BigInt(0);
 
   for (let i = 0; i < arr.length; i++) {
-    sum += arr[i];
+    sum += BigInt(arr[i]);
   }
 
   return sum;
